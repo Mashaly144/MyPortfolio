@@ -7,6 +7,7 @@ import {
   AiOutlineMail,
 } from 'react-icons/ai';
 import { BsPhone } from 'react-icons/bs';
+import { Link } from 'react-router-dom';
 function Footer() {
   return (
     // Your footer component content here
@@ -55,29 +56,29 @@ function Footer() {
         <div className='flex-1'>
           <ul className='md:flex md:items-center md:justify-between w-full grid grid-cols-3 gap-6 lg:gap-10 xl:gap-12 text-dark dark:text-lightContent font-medium text-xl'>
             <li>
-              <a className='font-DMSans' href='/home'>
+              <Link className='font-DMSans' to='/home'>
                 Home
-              </a>
+              </Link>
             </li>
             <li>
-              <a className='font-DMSans' href='/about'>
+              <Link className='font-DMSans' to='/about'>
                 About
-              </a>
+              </Link>
             </li>
             <li>
-              <a className='font-DMSans' href='/techstack'>
+              <Link className='font-DMSans' to='/techstack'>
                 Tech Stack
-              </a>
+              </Link>
             </li>
             <li>
-              <a className='font-DMSans' href='/projects'>
+              <a className='font-DMSans' to='/projects'>
                 Projects
               </a>
             </li>
             <li>
-              <a className='font-DMSans' href='/contact'>
+              <Link className='font-DMSans' to='/contact'>
                 Contact
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
