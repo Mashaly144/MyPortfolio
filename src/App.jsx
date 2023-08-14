@@ -16,10 +16,10 @@ function App() {
       {/* <SocialMedia /> */}
       <Routes>
         <Route path='/' element={<HomePage />} />
-        <Route path='/about' element={<AboutPage />} />
-        <Route path='/techstack' element={<TechStackPage />} />
-        <Route path='/projects' element={<ProjectsPage />} />
-        <Route path='/contact' element={<ContactsPage />} />
+        <Route path='/' element={<AboutPage />} />
+        <Route path='/' element={<TechStackPage />} />
+        <Route path='/' element={<ProjectsPage />} />
+        <Route path='/' element={<ContactsPage />} />
 
         {/* <About />
         <Work />
