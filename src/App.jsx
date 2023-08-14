@@ -12,19 +12,14 @@ function App() {
   return (
     <div className='bg-white dark:bg-[#191919]'>
       <Navbar />
-
-      {/* <SocialMedia /> */}
       <Routes>
         <Route path='/' element={<HomePage />} />
-        <Route path='/' element={<AboutPage />} />
-        <Route path='/' element={<TechStackPage />} />
-        <Route path='/' element={<ProjectsPage />} />
-        <Route path='/' element={<ContactsPage />} />
+        <Route path='/about' element={<AboutPage />} />
+        <Route path='/techstack' element={<TechStackPage />} />
+        <Route path='/projects' element={<ProjectsPage />} />
+        <Route path='/contact' element={<ContactsPage />} />
 
-        {/* <About />
-        <Work />
-        <Skills />
-        <Testimonial /> */}
+
       </Routes>
       <Footer />
     </div>
