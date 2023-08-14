@@ -36,7 +36,7 @@ const Navbar = () => {
          */}
         <h1 className='text-3xl  font-semibold'>Mashaly</h1>
       </div>
-      <ul className='md:flex md:items-center md:justify-between sm:hidden grid grid-cols-3 gap-6 lg:gap-10 xl:gap-12 text-dark dark:text-lightContent font-medium text-xl'>
+      <ul className='md:flex md:items-center md:justify-between hidden lg:grid grid-cols-3 gap-6 lg:gap-10 xl:gap-12 text-dark dark:text-lightContent font-medium text-xl'>
         <li>
           <a className='font-DMSans' href='/'>
             Home
