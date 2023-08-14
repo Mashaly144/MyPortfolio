@@ -3,7 +3,7 @@ import CardProject from './CardProject';
 
 const Projects = () => {
   return (
-    <div className='container mx-auto'>
+    <div className='container mx-auto sm:py-[100px]'>
       <div className='w-full flex-col items-center  text-center'>
         <h1 class='text-heading dark:text-headingDarkMode font-bold md:text-5xl text-2xl'>
           Projects
