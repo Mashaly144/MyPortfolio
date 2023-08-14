@@ -5,6 +5,7 @@ import { motion } from 'framer-motion';
 
 import { images } from '../../constants';
 import './Navbar.css';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
@@ -36,31 +37,31 @@ const Navbar = () => {
          */}
         <h1 className='text-3xl  font-semibold'>Mashaly</h1>
       </div>
-      <ul className='md:flex md:items-center md:justify-between hidden lg:grid grid-cols-3 gap-6 lg:gap-10 xl:gap-12 text-dark dark:text-lightContent font-medium text-xl'>
+      <ul className='md:flex md:items-center md:justify-between hidden lg:grid grid-cols-5 gap-6 lg:gap-10 xl:gap-12 items-center text-dark dark:text-lightContent font-medium text-xl'>
         <li>
-          <a className='font-DMSans' href='/'>
+          <Link className='font-DMSans' to='/'>
             Home
-          </a>
+          </Link>
         </li>
         <li>
-          <a className='font-DMSans' href='/about'>
+          <Link className='font-DMSans' to='/about'>
             About
-          </a>
+          </Link>
         </li>
         <li>
-          <a className='font-DMSans' href='/techstack'>
+          <Link className='font-DMSans' to='/techstack'>
             Tech Stack
-          </a>
+          </Link>
         </li>
         <li>
-          <a className='font-DMSans' href='/projects'>
+          <Link className='font-DMSans' to='/projects'>
             Projects
-          </a>
+          </Link>
         </li>
         <li>
-          <a className='font-DMSans' href='/contact'>
+          <Link className='font-DMSans' to='/contact'>
             Contact
-          </a>
+          </Link>
         </li>
       </ul>
       <div className='text-3xl cursor-pointer' onClick={() => handleDarkMode()}>
@@ -83,9 +84,9 @@ const Navbar = () => {
               {['home', 'about', 'techstack', 'projects', 'contact'].map(
                 (item) => (
                   <li key={item}>
-                    <a href={`/${item}`} onClick={() => setToggle(false)}>
+                    <Link to={`/${item}`} onClick={() => setToggle(false)}>
                       {item}
-                    </a>
+                    </Link>
                   </li>
                 )
               )}
