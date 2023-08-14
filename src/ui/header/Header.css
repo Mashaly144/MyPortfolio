@@ -1,0 +1,9 @@
+.gradient_container {
+  background-image: linear-gradient(to right, var(--tw-gradient-stops));
+  --tw-gradient-from: rgba(19, 176, 245, 1) var(--tw-gradient-from-position);
+  --tw-gradient-from-position: ;
+  --tw-gradient-to: rgba(19, 176, 245, 0) var(--tw-gradient-from-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+  --tw-gradient-to: rgba(231, 15, 170, 1) var(--tw-gradient-to-position);
+  --tw-gradient-to-position: ;
+}
