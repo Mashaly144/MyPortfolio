@@ -1,28 +1,9 @@
 import React from 'react';
 import { stack } from '../constants/stack';
 const TechStack = () => {
-  //     email,
-  //     mobile,
-  //     api,
-  //     cpp,
-  //     css,
-  //     figma,
-  //     flutter,
-  //     git,
-  //     graphql,
-  //     html,
-  //     javascript,
-  //     mu5,
-  //     node,
-  //     python,
-  //     react,
-  //     redux,
-  //     sass,
-  //     typescript,
-  //     vue,
-  //   ];
+
   return (
-    <div className='container mx-auto h-screen'>
+    <div className='container mx-auto'>
       <div className='w-full flex-col items-center text-center'>
         <h1 className='text-heading dark:text-headingDarkMode font-bold md:text-5xl text-2xl'>
           My Tech Stack
