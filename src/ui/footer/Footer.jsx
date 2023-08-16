@@ -71,9 +71,9 @@ function Footer() {
               </Link>
             </li>
             <li>
-              <a className='font-DMSans' to='/projects'>
+              <Link className='font-DMSans' to='/projects'>
                 Projects
-              </a>
+              </Link>
             </li>
             <li>
               <Link className='font-DMSans' to='/contact'>
