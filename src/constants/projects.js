@@ -10,6 +10,9 @@ import gpt3 from '../assets/projects/gpt3.png';
 import noodles from '../assets/projects/noodles.png';
 import discord from '../assets/projects/discord.png';
 import vr from '../assets/projects/vr.png';
+import Dopamine from '../assets/projects/Dopamine.png';
+import adventure from '../assets/projects/adventure.png';
+import kasper from '../assets/projects/kasper.png';
 
 export const projects = [
   {
@@ -118,5 +121,29 @@ export const projects = [
     stack: 'React.js tailwind css',
     livePreview: 'https://mashaly144.github.io/VanlyMusic/',
     viewCode: 'https://github.com/Mashaly144/VanlyMusic',
+  },
+  {
+    image: kasper,
+    name: 'kasper',
+    description: ` "Kasper." It might offer design elements and layout ideas for websites or applications. To provide more specific information about its content and purpose, further exploration of the website's features and visuals would be necessary.`,
+    stack: 'html css javascript ',
+    livePreview: 'https://kasper-template-alpha.vercel.app/',
+    viewCode: 'https://github.com/Mashaly144/kasper-Template',
+  },
+  {
+    image: adventure,
+    name: 'adventure',
+    description: `adventure agency template. It likely offers design elements and content layout suggestions for an adventure-themed website. To understand its specific features and intended usage, a closer examination of the website's content and visuals would be required.`,
+    stack: 'html css javascript bootstrap',
+    livePreview: 'https://adventure-agency-template.vercel.app/',
+    viewCode: 'https://github.com/Mashaly144/Adventure-Agency-Template',
+  },
+  {
+    image: Dopamine,
+    name: 'Dopamine',
+    description: ` "Dopamine." It might offer design or layout templates for websites or applications. To provide more specific details about its content and usage, further exploration of the website's features and visuals would be necessary.`,
+    stack: 'html css javascript bootstrap',
+    livePreview: 'https://mashaly144.github.io/Dopamine-template/',
+    viewCode: 'https://github.com/Mashaly144/Dopamine-template',
   },
 ];
