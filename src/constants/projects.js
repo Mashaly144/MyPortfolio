@@ -13,6 +13,7 @@ import vr from '../assets/projects/vr.png';
 import Dopamine from '../assets/projects/Dopamine.png';
 import adventure from '../assets/projects/adventure.png';
 import kasper from '../assets/projects/kasper.png';
+import technologycal from '../assets/projects/technologycal.png';
 
 export const projects = [
   {
@@ -45,6 +46,14 @@ export const projects = [
     stack: 'React.js Material Ui',
     livePreview: 'https://youtube-clone-ruby-nine.vercel.app/',
     viewCode: 'https://github.com/Mashaly144/Youtube-Clone',
+  },
+  {
+    image: technologycal,
+    name: 'Technologycal',
+    description: ` offer information, updates, or events related to the field of technology. To gain a better understanding of its content and purpose, exploring the website's features and visuals would be necessary.`,
+    stack: 'React.js tailwind css',
+    livePreview: 'https://technologycal.vercel.app/',
+    viewCode: 'https://github.com/Mashaly144/Technologycal',
   },
   {
     image: weatherApp,
@@ -137,13 +146,5 @@ export const projects = [
     stack: 'html css javascript bootstrap',
     livePreview: 'https://adventure-agency-template.vercel.app/',
     viewCode: 'https://github.com/Mashaly144/Adventure-Agency-Template',
-  },
-  {
-    image: Dopamine,
-    name: 'Dopamine',
-    description: ` "Dopamine." It might offer design or layout templates for websites or applications. To provide more specific details about its content and usage, further exploration of the website's features and visuals would be necessary.`,
-    stack: 'html css javascript bootstrap',
-    livePreview: 'https://mashaly144.github.io/Dopamine-template/',
-    viewCode: 'https://github.com/Mashaly144/Dopamine-template',
   },
 ];
