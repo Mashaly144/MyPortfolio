@@ -27,8 +27,9 @@ export default Projects;
 =======
 import React from 'react';
 import CardProject from './CardProject';
+import { Link } from 'react-router-dom';
 
-const Projects = () => {
+const Projects = ({ length }) => {
   return (
     <div className='container mx-auto'>
       <div className='w-full flex-col items-center  text-center'>
@@ -43,7 +44,15 @@ const Projects = () => {
           <button class='main_button'>Web</button>
           <button class='main_button'>Mobile</button>
         </div>
-        <CardProject />
+        <CardProject length={6} />
+        <div className='mt-10'>
+          <Link
+            to={'/projects'}
+            className='text-white font-medium text-xl cursor-pointer justify-center w-full flex items-center'
+          >
+            View All Projects
+          </Link>
+        </div>
       </div>
     </div>
   );

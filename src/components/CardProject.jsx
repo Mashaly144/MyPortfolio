@@ -57,10 +57,10 @@ export default CardProject;
 import React from 'react';
 import { projects } from '../constants/projects';
 import { AiOutlineLink, AiFillGithub } from 'react-icons/ai';
-const CardProject = () => {
+const CardProject = ({ length }) => {
   return (
     <div className='mt-[60px] md:mt-[140px] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10'>
-      {projects.map((project, index) => {
+      {projects.slice(0, length).map((project, index) => {
         return (
           <div
             key={index}
@@ -80,8 +80,13 @@ const CardProject = () => {
               <h1 class='mb-4 font-medium text-start text-xl dark:text-headingDarkMode md:text-2xl'>
                 {project.name}
               </h1>
-              <p class='flex-1 mb-3 text-dark dark:text-headingDarkMode text-start font-light text-md md:text-lg'>
+              {/* <p class='flex-1 mb-3 text-dark dark:text-headingDarkMode text-start font-light text-md md:text-lg'>
                 {project.description}
+              </p> */}
+              <p className='flex-1 mb-3 text-dark dark:text-headingDarkMode text-start font-light text-md md:text-lg'>
+                {project.description.length > 100
+                  ? `${project.description.substring(0, 300)}...`
+                  : project.description}
               </p>
               <p class='mb-2 md:mb-6 text-heading dark:text-headingDarkMode font-regular text-base'>
                 Tech Stack:{' '}

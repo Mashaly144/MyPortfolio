@@ -166,8 +166,19 @@ import Dopamine from '../assets/projects/Dopamine.png';
 import adventure from '../assets/projects/adventure.png';
 import kasper from '../assets/projects/kasper.png';
 import technologycal from '../assets/projects/technologycal.png';
+import hospitify from '../assets/projects/hospitify.png';
 
 export const projects = [
+  {
+    image: hospitify,
+    name: 'Hospitify',
+    description: `
+Hospitify is a sleek and modern website providing healthcare booking services, allowing users to easily schedule appointments with doctors and other healthcare professionals. The homepage features an intuitive search bar where users can search by specialty, doctor name, or location, streamlining the process of finding and booking medical appointments. The site offers user-friendly navigation, details on healthcare providers, and contact information to ensure a smooth experience for individuals seeking healthcare services. Additionally, it includes sections on health services, specialities, and frequently asked questions to assist users in finding the best care options.
+`,
+    stack: 'React.js Tailwind css',
+    livePreview: 'https://hospitify.roayatech.com/',
+    viewCode: 'https://github.com/Mashaly144/hospitify',
+  },
   {
     image: village,
     name: 'Egyptian Villages',

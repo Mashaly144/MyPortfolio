@@ -18,7 +18,6 @@
   .cardProjects {
     @apply dark:bg-[#363636] dark:text-[#cccccc] dark:shadow-none;
   }
-  /* ... */
 }
 
 :root {
