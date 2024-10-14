@@ -157,3 +157,7 @@
   --tw-text-opacity: 0.5;
   box-shadow: 0 3px 35px rgb(66 68 110 / var(--tw-text-opacity));
 }
+
+.hi {
+  bottom: 0;
+}
