@@ -189,7 +189,7 @@ Hospitify is a sleek and modern website providing healthcare booking services, a
     you to the heart of your community`,
     stack: 'React.js Bootstrap',
     livePreview: 'https://smart-village-ochre.vercel.app/',
-    viewCode: 'https://github.com/Mashaly144/smart-village',
+    viewCode: 'https://smart-village-ochre.vercel.app/',
   },
   {
     image: doctor,

@@ -63,6 +63,11 @@ const Navbar = () => {
             Contact
           </Link>
         </li>
+        {/* <li>
+          <Link className='font-DMSans' to='/addproject'>
+            Add Project
+          </Link>
+        </li> */}
       </ul>
       <div className='text-3xl cursor-pointer' onClick={() => handleDarkMode()}>
         {darkMode === 'dark' ? (
